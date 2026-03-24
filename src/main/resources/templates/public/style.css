@@ -1,0 +1,400 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: #131674;
+
+
+}
+.header{
+     background-color:#ffffff;
+     overflow: auto;
+     display: flex;
+     justify-content: space-between;
+     background-size: cover;
+     padding: 10px;
+
+
+}
+.header button {
+    background-color: #FFB200;
+    padding: 8px 20px;         /* Padding makes the button size based on text */
+    border-radius: 5px;        /* Slight rounding */
+    border: none;
+    cursor: pointer;
+}
+.header img{
+    margin-left: 6%;
+    height: 80px;
+    width: auto;
+
+}
+.navbar a{
+    text-decoration: none;
+
+    padding: 2px 8px;;
+    color: #000;
+    gap: 40px;
+    font: 1em sans-serif;
+
+
+
+}
+
+.navbar a:hover{
+    background: hotpink;
+
+}
+.navbar ul{
+    display: flex;
+    gap: 20px;
+}
+
+header button{
+   margin-top: 1%;
+   margin-right: 20%;
+   border-radius: 20px;
+
+}
+#logoColor{
+
+
+    color: #210F37;
+}
+
+#logo{
+    height: 100px;
+    padding-left: 10px;
+}
+
+.introduction{
+ background-color: #5e035f;
+ background-size: cover;
+ color: white;
+ padding: 50px;
+ display: block;
+ gap: 50px;
+ border: 2px solid purple;
+
+
+}
+.introduction p{
+    margin-left: 23%;
+    font-size: large;
+}
+h1{
+    color: aqua;
+    font-style: normal;
+}
+.introduction h1{
+    padding-left: 5%;
+    color: hotpink;
+
+
+}
+.introduction #summary p {
+    display: block;            /* Paragraphs are usually better as block than flex */
+    margin: 5% 3% 0 3%;        /* top, right, bottom, left */
+
+    /* REMOVE: height: 100px; */
+    min-height: 100px;         /* Use min-height if you want a base size */
+    width: auto;
+
+    font-size: 1.2rem;         /* Use rem for consistent scaling */
+    padding: 20px;             /* Use px for padding so it doesn't eat the box on mobile */
+
+    border: 2px solid rgb(242, 255, 0);
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;          /* Adds space between lines for readability */
+}
+.description{
+    display: flex;
+    gap:  3px;
+    background-color:#131674;
+
+
+
+}
+.mobileMenu{
+    display: none;
+}
+
+#CHECKED:checked ~  .mobileMenu{
+
+ display: block;
+
+}
+#say #like{
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+#say #submitICon{
+    width: 30%;
+    display: block;
+    margin: auto;
+    height: 200px;
+
+}
+
+
+.firstStep{
+    display: flex;
+    flex-direction: row;
+
+}
+.firstStep #first_H{
+    margin-left: 1PX;
+    color: rgb(231, 210, 17);
+}
+
+input{
+    display: none;
+}
+
+label{
+    display: none;
+
+}
+
+
+footer{
+    background-color: #161690;
+    padding:1px;
+    align-items: center;
+}
+.userAction{
+    background-color: #131674;
+    display: flex;
+    flex-direction: row;
+}
+
+.userAction img{
+    height: 200px;
+}
+#brief_explaination{
+    color: #E9E9E9;
+    background-color:#131674;
+    border: 2px solid red;
+}
+.moreInfo{
+    border: 2px solid #131674;
+    background-color: #131674;
+    color: #fff;
+}
+.moreInfo h1{
+    margin-left: 70px;
+}
+.moreInfo p{
+    display: block;
+    margin-left: 100px;
+    font-size: 1.2rem;
+
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+
+}
+
+.firstStep{
+    background-color: #131674;
+
+    display: flex;
+}
+.firstStep img{
+    margin-left: 40px;
+}
+.firstStep h1{
+    margin-left: 14%;
+}
+.figure1{
+    background-color: #131674;
+    padding: 10px;
+    margin-left: 15%;
+    display: flex;
+}
+
+.figure2{
+    background-color: #131674;;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#brief_figure2 h1{
+ margin-left: 10%;
+ color: rgb(249, 104, 19);
+}
+.figure2 img{
+    height: 300px;
+    width: 300px;
+    margin-left: 21%;
+}
+.firstStep #number1{
+    height: 30px;
+ }
+
+#number1{
+    margin-left: 13%;
+}
+
+.figure1 img{
+    height: 100px;
+}
+
+.figure1 #img1{
+margin-right: 69%;
+}
+
+.figure1 #img1{
+margin-right: 10%;
+}
+
+.imgBS{
+    justify-content: center;
+}
+
+.graphDiv{
+    margin-top: 6%;
+    padding-left: 10%;
+    border: 3px solid red;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 20%;
+}
+
+#signUP{
+    margin-left: 5%;
+}
+@media only screen and (max-width: 600px) {
+    .header ul{
+        display: none;
+    }
+
+    button{
+     display: none;
+    }
+
+
+    #mobileMenu{
+      display: none;
+    }
+
+     label{
+    display: block;
+    color:#000;
+    padding: 10%;
+    margin-left: 170px;
+
+}
+    .mobileMenu{
+        background-color: #d1b7b7;
+        display: none;
+        padding: 5px;
+        border: 2px solid lavender;
+}
+
+#signUP{
+    display: block;
+    margin-left: 18%;
+}
+.figure2 #side_img{
+    display: none;
+
+   }
+#brief_figure2 h1{
+    display: block;
+
+   }
+   .figure2 #brief_figure2{
+    display: block;
+    margin-left: 40px;
+   }
+
+.firstStep {
+    display: flex;
+    flex-direction: column;
+}
+.firstStep #number1{
+    height: 30px;
+    width: 30px;
+}
+
+.firstStep #second_H{
+    display: none;
+
+}
+
+.firstStep #first_H{
+    display: inline-block;
+    white-space: nowrap; /* Prevents the last word from dropping down */
+    margin-left: 30px;
+    font-size: 28px;
+}
+
+.figure1  #slums_brief_figure2{
+    display: none;
+}
+
+
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+      .figure2 #side_img{
+    margin-left: 30%;
+    margin-top: 0%;
+    display: block;
+    height: 15%;
+   }
+
+
+   #brief_figure2 h1{
+    display: none;
+   }
+
+
+   .figure2 #brief_figure2{
+    display: none;
+
+   }
+
+   .figure1 #slums_brief_figure2{
+    margin-left: 100px;
+    width: 360px;
+    height: 300px;
+}
+.introduction p{
+    font-size: 30px;
+}
+.introduction h1{
+    font-size: 60px;
+
+}
+
+.firstStep #second_H{
+    margin-left: 130PX;
+    display: inline-block;
+    white-space: nowrap;
+    color: #000;
+
+}
+ .firstStep #number1{
+    height: 80px;
+    margin-left: 5%;
+ }
+
+ .figure1 #Line1{
+    height: 100px;
+ }
+
+ .figure1 #Line2{
+    height: 150px;
+ }
+ .figure1 #Line3{
+    height: 150px;
+ }
+
+
+}

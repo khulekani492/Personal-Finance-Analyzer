@@ -370,9 +370,12 @@ margin-right: 10%;
 }
 .introduction h1{
     font-size: 60px;
-
 }
 
+.figure2{
+display:none;
+
+}
 .firstStep #second_H{
     margin-left: 130PX;
     display: inline-block;

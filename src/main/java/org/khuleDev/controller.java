@@ -15,6 +15,9 @@ public class controller {
             config.routes.get("/",ctx ->{
                 ctx.render("templates/index.html");
             });
+            config.routes.get("/login", ctx ->{
+                ctx.render("templates/login.html");
+            });
         }).start(7090);
     }
 

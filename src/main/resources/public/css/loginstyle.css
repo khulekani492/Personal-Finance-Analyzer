@@ -2,6 +2,14 @@ html,body{
     margin: 0;
     padding: 0;
     background-color: #131674;
+    display:flex;
+    justify-content: center;
+    align-items:center;
 
+}
 
+.loginForm {
+  background-color: yellow;
+  padding: 20px;
+  margin-top:50%;
 }
